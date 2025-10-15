@@ -1,0 +1,1 @@
+this page represents the first version of the git intro course, you will see a sentence in the middle of the page welcoming all the new visitors. so nothing u can do for now but see the welcoming phrase and the simple design
