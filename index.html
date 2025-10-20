@@ -1,25 +1,58 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <title>Edited from GitHub directly</title>
-        <style>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Edited from GitHub directly</title>
+    <style>
         body {
-        background-color: #924;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
+            background-color: rgb(55, 0, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
+
         h1 {
-        color: darkblue;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 60px;
-        text-align: center;
+            color: darkblue;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 60px;
+            text-align: center;
         }
-        </style>
-    </head>
-        <body>
-        <h1>Hello Git new style is here</h1>
-        </body>
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            animation: move 3s infinite alternate;
+            position: relative;
+        }
+
+        @keyframes move {
+            0% {
+                left: 0;
+                background-color: #3498db;
+                transform: scale(1);
+            }
+
+            50% {
+                left: 200px;
+                background-color: #e74c3c;
+                transform: scale(1.5);
+            }
+
+            100% {
+                left: 0;
+                background-color: #2ecc71;
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hello Git new style is here</h1>
+    <div class="box"></div>
+</body>
+
 </html>
